@@ -8,7 +8,7 @@ def json_parse(name, temp_dict):
     #     return True
     for k, v in temp_dict.items():
         if v == "Blockchain":
-            print('find in', k)
+            print('\nfind in', k)
             print(name)
             return True
         if isinstance(v, dict):
